@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #171847;
+    padding: 0;
+    color: white;
+}
+
+.barranavegacion {
+    background-color: #171847;
+    height: 5em;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+#restaurantes {
+    color: white;
+    font-weight: bold;
+    font-size: smaller;
+
+}
+
+
+#lacarta {
+    color: white;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+#siguenos {
+    color: white;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+#reservarmesa {
+    color: white;
+    background-color: cornflowerblue;
+    padding: 1.75em;
+}
+
+
+#navbarNavAltMarkup {
+
+}
+
+#navbar2 {
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+
