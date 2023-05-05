@@ -10,6 +10,10 @@
     color: white;
 }
 
+.allhomenavbar {
+    padding: 0%;
+}
+
 .barranavegacion {
     background-color: #171847;
     height: 5em;
@@ -26,9 +30,7 @@
     color: white;
     font-weight: bold;
     font-size: smaller;
-
 }
-
 
 #lacarta {
     color: white;
@@ -68,4 +70,18 @@
     flex-direction: column;
 }
 
+.partebaja {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
+#platosrecomendados2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#nachosrecomendado {
+    margin-top: -1.5%;
+}
