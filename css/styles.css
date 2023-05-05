@@ -68,6 +68,8 @@
     padding-top: 3%;
     flex-direction: column;
     align-items: center;
+    padding-left: 0;
+    padding-right: 0;
 
 }
 .imagencabecera {
@@ -98,6 +100,10 @@
     margin-top: -1.2%;
 }
 
+.homelowerzone {
+    padding: 0;
+}
+
 .pie1971 {
     display: flex;
     flex-direction: column;
@@ -107,12 +113,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    
+}
+
+#downfooter {
+   width: 100%;
+   display: flex;
+   padding: 0;
+   margin: 0;
 }
 
 .footer {
     display: flex;
     justify-content: flex-start;
+    width: 100%;
 } 
 
 .piedepagina {
@@ -122,6 +136,7 @@
     width: 100vw;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .lamarca {
