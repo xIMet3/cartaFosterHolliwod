@@ -8,6 +8,11 @@
     background-color: #171847;
     padding: 0;
     color: white;
+    height: 5em;
+}
+
+.collapse {
+    width: 100%;
 }
 
 .allhomenavbar {
@@ -63,25 +68,69 @@
     padding-top: 3%;
     flex-direction: column;
     align-items: center;
+
 }
 .imagencabecera {
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
+    max-width: 100vw;
 }
+
+
 
 .partebaja {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
+    
 }
 
 #platosrecomendados2 {
     display: flex;
     justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 #nachosrecomendado {
-    margin-top: -1.5%;
+    margin-top: -1.2%;
+}
+
+.pie1971 {
+    display: flex;
+    flex-direction: column;
+}
+
+.autenticos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+} 
+
+.piedepagina {
+    display: flex;
+    background-color: #d50032 ;
+    height: 10.2vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lamarca {
+    color: white;
+    font-weight: bold;
+    font-size: x-small;
+    padding-left: 5%;
+}
+
+.facebook {
+    padding-left: 5%;
 }

@@ -1,0 +1,36 @@
+navbar::::::::::::::::::::
+
+
+<div class="container-fluid allhomenavbar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid barranavegacion">
+              <a class="navbar-brand" href="#"><img src="./img/logoFoster.png"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="arNavA#navbltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav" id="navbar2">
+                  <a class="nav-link active" id="restaurantes" aria-current="page" href="https://fostershollywood.es/restaurantes">RESTAURANTES</a>
+                  <a class="nav-link" id="lacarta" href="#">LA CARTA</a>
+                  <a class="nav-link" id="siguenos" href="https://fostershollywood.es/fosterexperience">SIGUENOS</a>
+                  <a class="nav-link" id="reservarmesa" href=""> 📅RESERVAR MESA</a>
+                </div>
+              </div>
+            </div>
+        </nav>
+    </div>
+    
+    
+    
+footer:::::::::::::::::::::::::
+
+
+<div class="footer">
+              <div class="piedepagina">
+                <img class="estrella" src="./img/estrellaRojaFoster.png"><br>
+                <a class="lamarca" img href="https://fostershollywood.es/empresa" >LA MARCA</a>
+                <a class="facebook" href="https://www.facebook.com/fostershollywood"><img src="./img/facebook.png"></a>
+                <a class="twiter" href="https://twitter.com/fosterhollywood"><img src="./img/twiter.png"></a>
+                <a class="instagram" href="https://www.instagram.com/fostershollywood/"><img src="./img/instagram.png"></a>
+                <a class="youtube" href="https://www.youtube.com/user/CanalFosterHollywood"><img src="./img/youtube.png" alt=""></a>
+              </div>    
