@@ -71,6 +71,11 @@
     padding-right: 0;
 }
 
+.gluten {
+    display: flex;
+    justify-content: center;
+}
+
 .imagencabecera {
     display: flex;
     align-items: center;
