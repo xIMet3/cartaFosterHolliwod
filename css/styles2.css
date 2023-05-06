@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+}
+
+.imagencabeceracarta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+#fotocabecera {
+    padding: 0%;
+}
+
+.columnas {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
