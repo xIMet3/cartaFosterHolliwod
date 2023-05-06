@@ -15,7 +15,13 @@
     padding: 0%;
 }
 
-.columnas {
+#cartacompleta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#columnas {
     display: flex;
     justify-content: center;
     justify-content: space-between;
@@ -24,4 +30,10 @@
 
 #entrantes1 {
     padding-bottom: 2em;
+}
+
+.subfooter {
+    background-color: #171847;
+    height: 5em;
+    width: 100%;
 }
