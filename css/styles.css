@@ -203,3 +203,24 @@
     resize: none;
     box-sizing: border-box;
 }
+
+.form-floating {
+    display: flex;
+    width: 50%;
+}
+
+#floatingTextarea {
+    max-height: 5em;
+}
+
+#floatingTextarea2 {
+    max-height: 10em;
+}
+
+.cabeceracontacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
