@@ -169,10 +169,10 @@
 .piedepagina {
     display: flex;
     background-color: #d50032 ;
-    height: 10.2vh;
+    height: 10vh;
     width: 100vw;
     align-items: center;
-    justify-content: space-between;  
+    justify-content: space-evenly;  
 }
 
 .lamarca {
@@ -206,7 +206,7 @@
 
 .form-floating {
     display: flex;
-    width: 50%;
+    width: 70%;
 }
 
 #floatingTextarea {
@@ -223,4 +223,15 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-  }
+}
+
+#botonenviar {
+    background-color: #171847;
+    color: #171847;
+    border-bottom-color: #171847;
+    border-bottom-style: solid #171847; 
+}
+
+.datosdecontacto {
+    padding: 0;
+}
