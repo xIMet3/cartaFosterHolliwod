@@ -1,12 +1,13 @@
 ##### <span style= "color: #c00034">Proyecto 2: Carta restaurante con Boostrap.
 <br>
 
+###### Principal
 ![Foto-principal-final](./img/principalFinal.png)
-<br><br>
-
+<br><br><br><br>
+###### Carta
 ![Foto-carta](./img/cartaFinal.png)
 <br>
-
+###### Contacto
 ![Foto-contacto](./img/contactoFin.png)
 
 <br><br><br><br>
