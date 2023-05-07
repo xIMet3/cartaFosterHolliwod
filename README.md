@@ -39,8 +39,10 @@
 
 #### <span style="font-family:Aria-lNarrow"> - Foster's Hollywood es una cadena de restaurantes de comida estadounidense localizada en España, cuyos establecimientos son caracterizables entre los llamados casual restaurantes,​ pero entendidos en una cultura ajena como una suerte de «restaurantes étnicos», como pudieran ser los italianos u orientales.
 <br>
+
 #### <span style="font-family:Aria-lNarrow"> - La compañía fue fundada el año 1971 por iniciativa de un grupo de jóvenes extranjeros afincados en España (Mark Brownstein, Douglas Delfeld y los hermanos Anthony y Stephen A. Unger) y muy vinculados al mundo cinematográfico, que añoraban la comida típica estadounidense. En su momento fue la primera cadena de restaurantes al estilo estadounidense de España, y una de las primeras de Europa.​
 <br>
+
 #### <span style="font-family:Aria-lNarrow"> - El primer restaurante de la cadena se abrió ese mismo año en la calle de Magallanes, Un reportero de The New York Times comentó en su crítica del establecimiento que allí podían comerse probablemente los mejores aros de cebolla del mundo.
 <br>
 
