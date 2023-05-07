@@ -2,6 +2,12 @@
 <br>
 
 ![Foto-principal-final](./img/principalFinal.png)
+<br><br>
+
+![Foto-carta](./img/cartaFinal.png)
+<br>
+
+![Foto-contacto](./img/contactoFin.png)
 
 <br><br><br><br>
 
@@ -53,3 +59,51 @@
 #### <span style="font-family:Aria-lNarrow"> -La página de contacto donde hay un formulario donde el usuario puede rellenar los campos como "email", "nombre y apellidos" y una descripción.
 #### <span style="font-family:Aria-lNarrow"> -Todos los demás botones redirigen a las páginas oficiales de Foster Hollywood y se puede indagar mas en la carta clicando en cada sección, te redirige los platos que contiene la sección.
 #### <span style="font-family:Aria-lNarrow"> -Es totalmente responsive. 
+
+<br> <br>
+
+![Html-css-boostrap](./img/htmlcss.png)
+
+<br><br><br><br>
+
+
+### <span style= "color:#d11911">Repositorio GitHub
+<a id="Repositorio"></a>
+
+<br>
+
+#### https://github.com/xIMet3/cartaFosterHollywod
+
+<br><br><br><br>
+
+### <span style= "color:#d11911">Licencia y Copyright
+<a id="Licencia"></a>
+
+<br>
+
+#### <span style="font-family:Aria-lNarrow">DERECHOS DE PROPIEDAD INTELECTUAL E INDUSTRIAL
+
+#### <span style="font-family:Aria-lNarrow"> -Todos los contenidos de la página Web (textos, gráficos, fotografías, logos, marcas, iconos, imágenes, sonidos, diseño gráfico, software, tecnología, links, así como su diseño gráfico y códigos fuente, o cualquier otro) son de la exclusiva propiedad de FSP o de las sociedades de su grupo.
+ 
+<br>
+
+![copyright](./img/copyright.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
