@@ -19,6 +19,11 @@
     padding: 0%;
 }
 
+#menuhamburguesa {
+    background-color: #171847;
+    font-weight: bold;
+}
+
 .barranavegacion {
     background-color: #171847;
     height: 5em;
@@ -182,7 +187,3 @@
     padding-left: 5%;
 }
 
-#menuhamburguesa {
-    background-color: #171847;
-    font-weight: bold;
-}
