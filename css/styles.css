@@ -49,6 +49,11 @@
     font-size: smaller;
 }
 
+#contacto {
+    color: white;
+    font-size: smaller;
+}
+
 #reservarmesa {
     color: white;
     background-color: cornflowerblue;
@@ -175,4 +180,9 @@
 
 .facebook {
     padding-left: 5%;
+}
+
+#menuhamburguesa {
+    background-color: #171847;
+    font-weight: bold;
 }
