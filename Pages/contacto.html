@@ -11,104 +11,78 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    <div class="container-fluid allhomenavbar">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid barranavegacion">
-          <a class="navbar-brand" href="./index.html"
-            ><img src="./img/logoFoster.png"
-          /></a>
-          <button
-            class="navbar-toggler dropdown-toggle navbar-toggler-end"
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <ul class="dropdown-menu dropdown-menu-end" id="menuhamburguesa">
-            <li>
-              <a class="dropdown-item text-white fw-bold" href="./index.html"
-                >INICIO</a
-              >
-            </li>
-            <li>
-              <a
-                class="dropdown-item text-white fw-bold"
-                href="https://fostershollywood.es/restaurantes"
-                >RESTAURANTES</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item text-white fw-bold" href="./index2.html"
-                >LA CARTA</a
-              >
-            </li>
-            <li>
-              <a
-                class="dropdown-item text-white fw-bold"
-                href="https://fostershollywood.es/fosterexperience"
-                >SÍGUENOS</a
-              >
-            </li>
-            <li>
-              <a
-                class="dropdown-item text-white fw-bold"
-                href="https://fostershollywood.es/reservas"
-                >RESERVAR MESA</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item text-white fw-bold" href="./index3.html">CONTACTO</a>
-            </li>
-          </ul>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav" id="navbar2">
-              <a
-                class="nav-link active"
-                id="restaurantes"
-                aria-current="page"
-                href="https://fostershollywood.es/restaurantes"
-                >RESTAURANTES</a
-              >
-              <a class="nav-link" id="lacarta" href="./index2.html">LA CARTA</a>
-              <a
-                class="nav-link"
-                id="siguenos"
-                href="https://fostershollywood.es/fosterexperience"
-                >SÍGUENOS</a
-              >
-              <a class="nav-link fw-bold" id="contacto" href="./index3.html"
-                >CONTACTO</a
-              >
-              <a
-                class="nav-link"
-                id="reservarmesa"
-                href="https://fostershollywood.es/reservas"
-              >
-                📅RESERVAR MESA</a
-              >
-            </div>
+    <!-- Esta parte del codigo pertenece a la navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid barranavegacion">
+        <a class="navbar-brand" href="./index.html"
+          ><img src="../img/logoFoster.png"
+        /></a>
+        <button
+          class="navbar-toggler dropdown-toggle navbar-toggler-end"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" id="menuhamburguesa">
+          <li>
+            <a class="dropdown-item text-white fw-bold" href="../index.html"
+              >INICIO</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item text-white fw-bold">RESTAURANTES</a>
+          </li>
+          <li>
+            <a class="dropdown-item text-white fw-bold" href="/Pages/carta.html"
+              >LA CARTA</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item text-white fw-bold">SÍGUENOS</a>
+          </li>
+          <li>
+            <a class="dropdown-item text-white fw-bold">RESERVAR MESA</a>
+          </li>
+          <li>
+            <a class="dropdown-item text-white fw-bold" href="./contacto.html"
+              >CONTACTO</a
+            >
+          </li>
+        </ul>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav" id="navbar2">
+            <a class="nav-link active" id="restaurantes" aria-current="page"
+              >RESTAURANTES</a
+            >
+            <a class="nav-link" id="lacarta" href="./carta.html">LA CARTA</a>
+            <a class="nav-link" id="siguenos">SÍGUENOS</a>
+            <a class="nav-link fw-bold" id="contacto" href="./contacto.html"
+              >CONTACTO</a
+            >
+            <a class="nav-link" id="reservarmesa"> 📅RESERVAR MESA</a>
           </div>
         </div>
-      </nav>
-    </div>
-    <br />
-    <br />
-
+      </div>
+    </nav>
+    <!-- Esta parte del codigo pertenece al cuerpo de la pagina -->
     <div class="container-fluid datosdecontacto" p->
       <div class="cabeceracontacto">
         <div
           class="otrosasuntos d-flex justify-content-center align-items-center"
         >
-          <img src="./img/contactoYSugerencias.png" class="img-fluid" />
+          <img
+            src="../img/contactoYSugerencias.png"
+            id="contactoysugerencias"
+            class="img-fluid"
+          />
         </div>
-        <br />
-        <br />
-        <br />
 
+        <!-- Formulario de contacto -->
         <div
           class="form-floating mb-3 d-flex justify-content-center align-items-center"
         >
@@ -215,68 +189,42 @@
           <label>Provincia</label>
         </div>
 
-        <br />
-        <br />
-
-        <div
-          class="form-actions d-flex justify-content-center align-items-center"
-          id="botonenviar"
-        >
-          <input
-            class="webform-submit button-primary form-submit"
-            type="submit"
-            name="op"
-            value="Enviar"
-          />
-        </div>
-
-        <br />
-        <br />
+        <button type="button" class="btn btn-primary">Enviar</button>
 
         <div class="tambienpuedes">
-          <img src="./img/tambienPuedes.png" class="img-fluid" />
+          <img src="../img/tambienPuedes.png" class="img-fluid" />
         </div>
 
-        <br />
-        <br />
+        
 
         <div class="protecciondatos">
-          <img src="./img/proteccionDatos.png" class="img-fluid" />
+          <img src="../img/proteccionDatos.png" id="protecciondedatos" class="img-fluid" />
         </div>
 
-        <br />
-        <br />
-        <br />
-
         <div class="container-fluid allfooter" id="downfooter">
-          <div class="footer">
+          <div class="footer1">
             <div class="piedepagina">
               <img
                 class="estrella"
-                src="./img/estrellaRojaFoster.png"
+                src="../img/estrellaRojaFoster.png"
                 class="img-fluid"
-              /><br />
-              <a class="lamarca" img href="https://fostershollywood.es/empresa"
-                >LA MARCA</a
-              >
-              <a
-                class="facebook"
-                href="https://www.facebook.com/fostershollywood"
-                ><img src="./img/facebook.png"
-              /></a>
-              <a class="twiter" href="https://twitter.com/fosterhollywood"
-                ><img src="./img/twiter.png"
-              /></a>
-              <a
-                class="instagram"
-                href="https://www.instagram.com/fostershollywood/"
-                ><img src="./img/instagram.png"
-              /></a>
-              <a
-                class="youtube"
-                href="https://www.youtube.com/user/CanalFosterHollywood"
-                ><img src="./img/youtube.png"
-              /></a>
+              />
+            </div>
+            <div class="footer2">
+              <div class="piedepagina2">
+                <div class="facebook m-3">
+                  <img src="../img/facebook.png" class="img-fluid" />
+                </div>
+                <div class="twiter m-3">
+                  <img src="../img/twiter.png" class="img-fluid" />
+                </div>
+                <div class="instagram m-3">
+                  <img src="../img/instagram.png" class="img-fluid" />
+                </div>
+                <div class="youtube m-3">
+                  <img src="../img/youtube.png" class="img-fluid" />
+                </div>
+              </div>
             </div>
           </div>
         </div>

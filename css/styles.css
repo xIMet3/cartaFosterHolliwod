@@ -74,6 +74,8 @@
 .gluten {
     display: flex;
     justify-content: center;
+    margin: 2em;
+    
 }
 .imagencabecera {
     display: flex;
@@ -132,35 +134,43 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 2em;
 }
 #downfooter {
    width: 100%;
    display: flex;
    padding: 0;
    margin: 0;
+   justify-content: flex-start;
 }
-.footer {
+
+.footer1 {
     display: flex;
-    justify-content: flex-start;
-    width: 100%;
-} 
+}
+
 .piedepagina {
     display: flex;
-    background-color: #d50032 ;
+    background-color: #c00034 ;
     height: 10vh;
-    width: 100vw;
+    width: 50vw;
     align-items: center;
-    justify-content: space-evenly;  
+    justify-content: flex-start;
 }
-.lamarca {
-    color: white;
-    font-weight: bold;
-    font-size: x-small;
-    padding-left: 5
+
+.piedepagina2{
+    background-color: #d50032;
+    display: flex;
+    height: 10vh;
+    width: 50vw;
+    align-items: center;
+    justify-content: flex-end;
 }
-.facebook {
-    padding-left: 5%;
+
+#protecciondedatos {
+    margin-bottom: 2em;
 }
+
+
 .wf-coments {
     width: 100%;
 } 
@@ -200,4 +210,13 @@
 }
 .datosdecontacto {
     padding: 0;
+}
+
+.btn-primary {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+#contactoysugerencias {
+    margin-bottom: 3em;
 }
