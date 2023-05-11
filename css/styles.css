@@ -20,6 +20,7 @@
 #menuhamburguesa {
     background-color: #171847;
     font-weight: bold;
+    z-index: 5;
 }
 .barranavegacion {
     background-color: #171847;
@@ -33,29 +34,16 @@
 .navbar-toggler-icon {
     background-color: white;
 }
-#restaurantes {
-    color: white;
-    font-weight: bold;
-    font-size: smaller;
-}
-#lacarta {
-    color: white;
-    font-weight: bold;
-    font-size: smaller;
-}
-#siguenos {
-    color: white;
-    font-weight: bold;
-    font-size: smaller;
-}
-#contacto {
-    color: white;
-    font-size: smaller;
-}
+
 #reservarmesa {
-    color: white;
     background-color: cornflowerblue;
     padding: 1.75em;
+}
+
+#reservamesa, #contacto, #siguenos, #lacarta, #restaurantes {
+    color: white;
+    font-weight: bold;
+    font-size: smaller;
 }
 #navbar2 {
     justify-content: space-evenly;
@@ -151,7 +139,7 @@
 .piedepagina {
     display: flex;
     background-color: #c00034 ;
-    height: 10vh;
+    height: 12vh;
     width: 50vw;
     align-items: center;
     justify-content: flex-start;
@@ -160,7 +148,7 @@
 .piedepagina2{
     background-color: #d50032;
     display: flex;
-    height: 10vh;
+    height: 12vh;
     width: 50vw;
     align-items: center;
     justify-content: flex-end;
@@ -220,3 +208,4 @@
 #contactoysugerencias {
     margin-bottom: 3em;
 }
+

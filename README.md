@@ -54,13 +54,12 @@
 
 <br>
 
-####  <span style="font-family:Aria-lNarrow">  Para este proyecto se ha utilizado HTML, CSS/Layout y BOOSTRAP  también contiene imágenes descargadas de internet y enlaces a las páginas oficiales del restaurante.
+####  <span style="font-family:Aria-lNarrow">  Para este proyecto se ha utilizado HTML, CSS/Layout y BOOSTRAP  también contiene imágenes descargadas de internet.
 
 #### <span style="font-family:Aria-lNarrow"> El proyecto se basa en 3 páginas enlazadas entre ellas:
 #### <span style="font-family:Aria-lNarrow"> -La página principal que contiene imágenes con ofertas, platos recomendados..
 #### <span style="font-family:Aria-lNarrow"> - La carta que contiene las distintas secciones en que se divide la carta del restaurante.
 #### <span style="font-family:Aria-lNarrow"> -La página de contacto donde hay un formulario donde el usuario puede rellenar los campos como "email", "nombre y apellidos" y una descripción.
-#### <span style="font-family:Aria-lNarrow"> -Todos los demás botones redirigen a las páginas oficiales de Foster Hollywood y se puede indagar mas en la carta clicando en cada sección, te redirige los platos que contiene la sección.
 #### <span style="font-family:Aria-lNarrow"> -Es totalmente responsive. 
 
 <br> <br>
